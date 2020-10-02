@@ -25,7 +25,7 @@ The analysis of the election shows that:
     2 received x % of the vote and "Y" number of votes.
     3 received x % of the vote and "Y" number of votes.
 - The winner of the election was:
-    Candidate (1, 2, or 3), who received x% of the vote and y number of votes.
+    Candidate (1, 2, or 3), who received x% of the vote and "Y" number of votes.
     
  ## Challenge Overview
  
