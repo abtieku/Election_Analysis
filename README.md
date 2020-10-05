@@ -9,8 +9,8 @@ The project was to assist Seth and Tom in conducting an audit of a  recent local
 * For each county, who:
 	The county names
 	The percentage of the total that each county tallied
-	The total number of votes in each county
-	Which county had the largest turnover.
+	The total number of votes in each county - voter turnout
+	Which county had the largest turnout.
 
 To do this, I did the following used the election_results.csv file to do the following:
 - Calculate the total number of votes cast.
