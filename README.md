@@ -29,10 +29,10 @@ Here is the analysis of the election:
 To get this information, I used:
 
 * **Lists and dictionaries** to create the county and candidate lists. For example:
-
-`county_options = []`
-`county_votes_dict = {}`
-
+```
+county_options = []
+county_votes_dict = {}
+```
 * **"For" loops or repetition statements** to loop through each line of the CSV file. For example:
 
 `for county_name in county_votes_dict:`
@@ -40,10 +40,10 @@ To get this information, I used:
 
 `if (votes > winning_county_count):`
 * **CSV and OS modules** for the print statements to write to the screen and the file. For example:
-
-`file_to_load = os.path.join('Resources\election_results.csv')`
-`file_to_save = os.path.join("analysis", "election_results.txt")`
-
+```
+file_to_load = os.path.join('Resources\election_results.csv')
+file_to_save = os.path.join("analysis", "election_results.txt")
+```
 Here is a screenshot of the terminal showing these results:
 
 ![](./Resources/election_results.png)  
