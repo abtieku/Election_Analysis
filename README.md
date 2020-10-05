@@ -35,7 +35,9 @@ The analysis of the election shows that:
 To get this information, we used looping to do it.
 
 Here is a screenshot of the terminal showing these results:
+
 ![](./Resources/election_results.png)  
+
 
 
 ## Election Audit Summary
