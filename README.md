@@ -11,10 +11,10 @@ The purpose of the project was to conduct an audit of a  recent local congressio
 	- Each county's vote percentage in comparison to the total votes cast.
 	
 
-To do this, I used Python. My input file was a comma separated value file with the election results and fields were: ballot ID, county, and candidate.
+To do this, I used Python. My input file was a CSV file containing ballot ID, county, and candidate.
 ## Election Audit Results
 Here is the analysis of the election:
-- **How many votes were cast in the congressional election?** There were 369,711 total votes cast in the election. To get this, I used this code.
+- **How many votes were cast in the congressional election?** There were 369,711 total votes cast in the election. 
 - **County breakdown**:
   - Denver County received 306,055 votes, or 82.8% of the total.
   - Jefferson County received 38,855 votes, or 10.5% of the total
@@ -29,13 +29,17 @@ Here is the analysis of the election:
 To get this information, I used:
 
 * **Dictionaries** to create the counties and candidate lists. For example:
+
 `county_options = []`
 `county_votes_dict = {}`
-* **"For loops" or repetition statements** to loop through each line of the csv file. For example:
+* **"For loops" or repetition statements** to loop through each line of the CSV file. For example:
+
 `for county_name in county_votes_dict:`
 * **"If" or decision (conditional) statements** with logical operators. For example:
+
 `if (votes > winning_county_count):`
 * **CSV and OS modules** for the print statements to write to the screen and the file. For example:
+
 `file_to_load = os.path.join('Resources\election_results.csv')`
 `file_to_save = os.path.join("analysis", "election_results.txt")`
 
@@ -43,7 +47,7 @@ Here is a screenshot of the terminal showing these results:
 
 ![](./Resources/election_results.png)  
 
-These results are also written to  /analysis/election_results.txt file.
+These results are also written to  /analysis/election_results.txt.
 
 ## Election Audit Summary
 To summarize, this script worked well for its purpose and can be re-used, with some modifications, for any election. 
