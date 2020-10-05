@@ -1,32 +1,49 @@
-# Election_Analysis
+# Election Analysis
 
-## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+The project was to assist Seth and Tom in conducting an audit of a  recent local congressional election. The election commission has requested the following:
+*  The number of total votes received.
+*  The names of the each candidate, along with
+*  The percentage of the total number of votes
+*  The number of votes they received
+* For each county, who:
+	The county names
+	The percentage of the total that each county tallied
+	The total number of votes in each county
+	Which county had the largest turnover.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+To do this, I did the following used the election_results.csv file to do the following:
+- Calculate the total number of votes cast.
+- Get a complete list of candidates who received votes.
+- Calculate the total number of votes each candidate received.
+-  Calculate the percentage of votes each candidate won.
+-  Determine the winner of the election based on popular vote.
 
-## Resources
-- Data Source: election_results.cssv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
-
-## Summary
+## Election Audit Results
 The analysis of the election shows that:
-- There were "x" votes case in the election.
-- The candidates were:
-    1
-    2
-    3
-- The candidiate results were:
-    1 received x % of the vote and "Y" number of votes.
-    2 received x % of the vote and "Y" number of votes.
-    3 received x % of the vote and "Y" number of votes.
-- The winner of the election was:
-    Candidate (1, 2, or 3), who received x% of the vote and "Y" number of votes.
-    
- ## Challenge Overview
- 
- ## Challenge Summary
+- There were 369,711 total votes cast in the election.
+- The winners were:
+	1st place - Diana DeGette who had a total of 272,892 votes which was 73.8% of the votes cast.
+	2nd place was Diana DeGette who had a total of 272,892 votes which was 73.8% of the votes cast.
+	3rd place runner-up was Diana DeGette who had a total of 272,892 votes which was 73.8% of the votes cast.
+- On the county level, Denver County had the greatest turnout.
+- On the county level:
+- 	Denver County had the greatest turnout with 82.8%, or 305,055.
+- 	Jeffersion County had the second number of votes with 10.5% of the total, or 38,855 votes.
+- 	Arapahoe County had the third number of notes with 6.7% of the total, or 24,801 votes.
+
+To get this information, we used looping to do it.
+
+Here is a screenshot of the terminal showing these results:
+![](./Resources/election_results.png)  
+
+
+## Election Audit Summary
+To summarize, this script worked well for its purpose and can be re-used, with some modifications, for any election. 
+
+If needed, it can be modified in these ways for other elections:
+- It can show how wide of a margin the winner won over the second-place candidate.
+- It can show the candidate statistics by county, showing who won in each county, the percentage of votes received in that county, and the number of votes in each county.
+
+
+
